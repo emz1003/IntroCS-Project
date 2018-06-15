@@ -1,0 +1,16 @@
+body{
+		 align-items: center;
+            background-color : lightblue;
+            
+    }
+h1 {
+            color : navy;
+            text-align : center;
+
+}
+
+#highlight{
+
+   background-color : yellow;
+
+}

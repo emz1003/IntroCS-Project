@@ -1,0 +1,1 @@
+	The wild {animal} is a ferocious beast. Most of them live in {place}. They use their {body_part} to get their favorite food, {food}. They like temperatures around {number} degrees. They can often be found {verb}. Although some people think they are {adjective1}, they are actually {adjective2}.

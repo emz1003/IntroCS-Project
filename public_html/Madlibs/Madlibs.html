@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <!--<link rel="stylesheet" type="text/css" href="mystyle.css" >-->
+        <title>Madlibs</title>
+    </head>
+    <body>
+      <form action="MadLibsCGI.py" method="post">
+        <select name="story" id="storyid" onchange="this.form.submit();">
+          <option value="choose a story">choose a story</option>
+          <option value="cat and mouse">cat and mouse</option>
+          <option value="journal">journal</option>
+          <option value="wildlife">wildlife</option>
+          <option value="fairy tale">fairy tale</option>
+        </select>
+      </form>
+    </body>
+</html>

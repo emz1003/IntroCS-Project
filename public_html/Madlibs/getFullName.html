@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title> Get Name </title>
+  </head>
+  <body>
+    <form method="post" action="processfullnameCGI.py" >
+      Please enter your first name: <input type="text" name="firstname"
+                                         placeholder="e.g. John"
+                                         autofocus required="required">
+      <br>
+       <form method="post" action="processnameCGI.py" >
+      Middle initial: <input type="text" name="middleInitial"
+                                         placeholder="e.g. P"
+                                         maxlength = "1">
+      <br>
+     <form method="post" action="processnameCGI.py" >
+      last name: <input type="text" name="lastname"
+                                         placeholder="e.g. Doe">
+      <br>
+
+      <input type="submit" name="submitname" value="Submit Name" />
+    </form>
+
+    
+  </body>
+</html>
